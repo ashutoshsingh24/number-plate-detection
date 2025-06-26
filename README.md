@@ -11,16 +11,18 @@ An advanced, real-time vehicle number plate detection system built using **YOLOv
 - ⚡ Fast and accurate using YOLOv10
 - 🎥 Supports video streams and webcam input
 - 🗂️ YOLO format dataset preparation and training
+- 🔍 Character segmentation and recognition using CNN
 
 ---
 
 ## 🧠 Technologies Used
 
 - 🐍 Python 3.12
-- 🔍 YOLOv10 via Ultralytics
+- 🔍 YOLOv10 via [Ultralytics](https://github.com/ultralytics/ultralytics)
 - 🎥 OpenCV for video and image processing
-- 🧠 Custom dataset with 36 classes (A–Z, 0–9)
-- 📈 Logging and visualization of training results
+- 🧠 TensorFlow / Keras for character recognition
+- 🧾 EasyOCR (optional) for text extraction
+- 📈 Matplotlib, Seaborn for training visualizations
 
 ---
 
