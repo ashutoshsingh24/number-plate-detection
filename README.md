@@ -27,4 +27,21 @@ An advanced, real-time vehicle number plate detection system built using **YOLOv
 ---
 
 ## 📁 Directory Structure
+Vehicle-Number-Plate-Detection/
+├── yolov10s.pt # Pre-trained YOLOv10 model
+├── model.h5 # Trained CNN model for character recognition
+├── main.ipynb # Jupyter notebook for full pipeline
+├── detect_plate.py # Script for YOLO-based plate detection
+├── recognize_chars.py # Script for character segmentation & recognition
+├── utils/
+│ ├── preprocess.py # Preprocessing functions
+│ └── draw_boxes.py # Helper to draw boxes and annotations
+├── data/
+│ ├── train/ # Training images (YOLO format)
+│ └── test/ # Test images/videos
+├── outputs/
+│ ├── cropped_plates/ # Cropped number plate regions
+│ └── recognized_text/ # Extracted text results
+├── requirements.txt # Dependencies
+├── README.md # Project overview
 
